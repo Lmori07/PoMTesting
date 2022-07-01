@@ -69,7 +69,7 @@ public class CreatePage
 
     SelectElement selectDay = new SelectElement(ddDays);
     SelectElement selectMonth = new SelectElement(ddMonths);
-    SelectElement selectYear = new SelectElement()ddYears;
+    SelectElement selectYear = new SelectElement(ddYears);	
     public void selectingDay() => selectDay.SelectByValue("7");
     public void selectingMonth() => selectMonth.SelectByValue("August");
     public void selectingYear() => selectYear.SelectByValue("1987");
