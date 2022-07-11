@@ -1,10 +1,10 @@
 namespace NUnitPoMProject;
 
 
-public class AuthenticationPage
+public class AutPage
 {
     //Constructor que me permitira utilizar los metodos del WebDriver
-    public AuthenticationPage(IWebDriver driver)
+    public AutPage(IWebDriver driver)
     {
         Driver = driver;   
     }
@@ -17,7 +17,7 @@ public class AuthenticationPage
 
     //Ejecuto las operaciones sobre el elemeneto en cuestion.
     public void clickOnEmailTxtBox() => txtbEmail.Click();
-    public void sendValidMail()=> txtbEmail.SendKeys("prueba@prueba.com");
+    public void setValidMail()=> txtbEmail.SendKeys("testaaa@testaaa.com");
     public void clickOnBtnCreate()=> btnCreate.Click();
     
 
